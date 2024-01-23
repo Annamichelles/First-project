@@ -1,27 +1,57 @@
+/* tags */
 h1 {
 	color: white;
 	font-weight: 300;
 	font-style: italic;
 	text-align: center;
-	background-color: darkgray;
 	font-family: Courier New;
-	opacity: 0.6;
-}
 
-.Menu {
-	color: black;
 }
 
 body { 
-	background-image: url(../images/flower.png);
+	background-image: url(../images/80s.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+img {
+	border-width: 2px;
+	border-style: dashed;
+	border-color: hotpink;
+	
+}
+
+/* classes */
+.menu {
+	color: white;
+	position: fixed;
+	top: 20px;
+	left: 30px;
+	font-family: Courier New;
+	font-size: 20px;
+	cursor: pointer;
+	:hover {
+		scale: 1.2;	
+	}
+}
+
+.picture {
+	position: absolute;
+	top: 450px;
+	left: 1300px;
 
 }
-img {
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-	image-orientation: center;
-	float: right;
+
+.portfolio {
+	position: absolute;
+	color: white;
+	font-size: 17px;
+	:hover {
+		scale: 1;
+	}
 }
+
+.title {
+	margin-top: 250px;
+}
+
